@@ -1,0 +1,236 @@
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+.span{
+    color: #12a5e9;
+}
+.manuList{
+    display: flex;
+    text-decoration: none;
+    gap: 20px;
+    color:  #12a5e9;
+    
+}
+.manuList :hover{
+      color: #12a5e9;
+      background-color: #12a5e9;
+      color: white;
+      border-radius: 5px;        
+}
+h3{
+    padding: 10px;
+}
+.but{  
+    border: none;
+    width: 0px 50px;
+    
+}
+.button{
+   background-color: #12a5e9;
+   border-radius: 30px;
+   padding: 10px;
+   color: white;
+   font-size:20px ;
+   
+}
+.button:hover{ 
+    background-color: white;
+    color: #12a5e9;
+    cursor: pointer;   
+}
+
+/* banner area(1) */
+.banner1{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0px 100px;
+
+}
+.skip h1{
+   font-size: 70px;
+  
+}
+.skip p{
+    font-size: 25px; 
+}
+
+
+.topimage{
+   width: 400px;   
+}
+
+/* banner(2) */
+.about{
+    width: 500px;  
+}
+.banner2{
+    display: flex;   
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 200px;
+    
+      
+}
+.welcome{
+     width: 100%;
+}
+.banner2{
+    width: 100%;
+}
+
+
+.welcome h1{
+    font-size:40px ;    
+}
+.welcome p{
+    font-size:30px ;    
+}
+
+/* banner area(3) */
+.text{
+    text-align: center;
+    margin-top: 100px;
+}
+.text h1{
+    font-size:50px ;
+}
+.text p{
+    font-size:20px;
+    padding:0px 50px ;
+}
+.item{
+    width: 300px;
+ 
+}
+.food{ 
+    box-shadow: 4px 3px 4px gainsboro ;
+    border-radius:10px ;
+    height: 450px;
+    padding: 0px 20px;
+}
+.section3{
+    display: flex;   
+    gap: 50px;
+    padding: 0px 100px;
+}
+.food:hover{
+   box-shadow:0px 2px 0px 4px #12a5e9; 
+}
+h1{
+    font-size:30px;
+}
+p{
+    font-size:20px;
+}
+
+/* banner area(4) */
+.item2{
+    height:150px ;
+    width: 150px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 70px;   
+}
+.food h1,h2,p{
+  text-align: center;
+}
+.youtube{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 10px 10px 10px 10px lightgray;
+    
+    width: 80%;
+    margin: 50px auto 200px auto;
+    border-radius: 30px;
+    padding: 50px;
+    
+}
+.span{
+    color: #12a5e9;
+}
+.stay{
+ text-align: center;
+ box-shadow:  0px 0px 15px lightgray;
+ border-radius: 30px  ;
+ margin: auto;
+ padding: 20px;
+ width: 70%;
+ position: absolute;
+ top: -30%;
+ left: 50%;
+ background-color: white;
+ transform: translate(-50%, 0%);
+
+}
+.stay h1{
+   font-size: 40px;
+}
+
+.input{
+    padding: 8px 10px;
+    border: 2px solid  #12a5e9; 
+    border-radius: 15px 0px 0px 15px ;
+
+}
+.btn{
+   background-color: #12a5e9;
+   padding: 8px 15px;
+   border:2px solid #12a5e9 ;
+   border-radius: 0px 15px 15px  0px;
+   color: white;
+   margin-left: -5px;
+
+}
+.btn:hover{
+    background-color: white;
+    color:#12a5e9 ;
+}
+
+.last-section{
+    background-color: black;
+    padding: 80px;
+   
+}
+
+.healthy{
+    text-align: center;
+    margin-top: 50px;
+}
+.healthy h4{
+   color: white;
+}
+.list{
+   display: flex;
+   justify-content: center;
+   color: lightgray;
+}
+
+.list1:hover{
+   color: #12a5e9;
+   cursor: pointer;
+}
+hr{
+    border: 1px solid  #12a5e9;
+    width: 80%;
+}
+.copyright{
+    color: white;
+
+}
+.foote-arear{
+    position: relative;
+}
+.Subscribe{
+    width: 60%;
+    border: 1px solid red;
+    margin: auto;
+   
+}
